@@ -3,7 +3,7 @@ export function MyInfo() {
   return (
        <div className="InfoCard">
       <h3 className="info-title">내 응원팀</h3>
-      <div className="team-emoji">🦅</div>
+      <div className="team-emoji"></div>
       <p>***님</p>
       <p>롯데자이언츠</p>
       <p>포인트</p>

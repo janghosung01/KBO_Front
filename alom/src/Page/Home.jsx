@@ -2,7 +2,7 @@
 import { TodaytMatch } from "./Homepage/TodayMatch";
 import { TodayQuiz } from "./Homepage/TodayQuiz";
 import { MyInfo } from "./Homepage/MyInfo";
-import { MiniGame } from "./Homepage/MiniGame.Jsx";
+
 import { Announce } from "./Homepage/Announce";
 import "./Home.css";
 export function Home() {
@@ -17,7 +17,7 @@ export function Home() {
           <TodayQuiz />          
         </div>
         <div className="section section4">
-          <MiniGame />
+          <TodayQuiz /> 
         </div>
         <div className="section section5">
           <MyInfo />
