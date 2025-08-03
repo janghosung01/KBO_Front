@@ -3,5 +3,6 @@ export function MiniGame() {
     <div className="Box">
       <div>MiniGame</div>
     </div>
+    
   );
 }
