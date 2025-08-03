@@ -1,0 +1,37 @@
+.NavBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e90ff;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  margin: 5px 10px;
+  flex: 1 1 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  background-color: white;
+  color: #1e90ff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.05rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+.nav:hover {
+  background-color: #e6f0ff;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,40 @@
+.MatchBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+
+.match-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  flex: 1 1 calc(20% - 16px); /* 5개 균등 배분 */
+  min-width: 180px;
+  max-width: 250px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s;
+}
+
+.match-card:hover {
+  transform: translateY(-4px);
+}
+
+/* 예시 버튼 스타일 (하단 버튼 영역용) */
+.match-card button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.match-card button:hover {
+  background-color: #1e90ff;
+}
