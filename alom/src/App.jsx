@@ -6,7 +6,7 @@ import { Header } from "./Header/Header";
 import { Nav } from "./Page/Homepage/Nav";
 
 import { Home } from "./Page/Home";
-import { Login } from "./Page/Login";
+import { Login } from "./Page/Login";                             
 import { MyPage } from "./Page/MyPage";
 import { Option } from "./Page/Option";
 import { Chating } from "./Page/Chating/Chating";

@@ -1,57 +1,61 @@
 .headerContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
- 
+  align-items: center; 
+  padding: 0.5rem 0; 
   background-color: white;
   border-bottom: 1px solid #e5e7eb;
   width: 100%;
 }
 
-
 .leftSection {
   font-weight: bold;
   color: #1E90FF;
   margin-left: 5%;
+  font-size: 1.2rem; 
+}
+
+.leftSection img {
+  width: 80px; 
+  vertical-align: middle; 
 }
 
 .rightSection {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px; 
   margin-right: 5%;
+  margin-bottom: 5px; /* 아래쪽 여백 추가 */
 }
 
 .link, .btn {
   color: #374151;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 1rem; 
   font-weight: 400;
   transition: all 0.3s ease;
   position: relative;
+  padding: 0.3rem 0.6rem;
 }
-
-
-
 
 .link:hover, .btn:hover {
   color: #000;
   background-color: #f3f4f6;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px; 
 }
 
 .link:visited, .btn:visited {
   color: #374151;
 }
 
-/* 추가적인 호버 효과 - 밑줄 애니메이션 */
 .link::after, .btn::after {
   content: '';
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: 4px;
+  bottom: -5px; 
   left: 50%;
   background-color: #1E90FF;
   transition: all 0.3s ease;
