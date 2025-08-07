@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { Header } from "./Header/Header";
+import { Header } from "./Header/Header"; // 헤더수정
 import { Nav } from "./Page/Homepage/Nav";
 
 import { Home } from "./Page/Home";

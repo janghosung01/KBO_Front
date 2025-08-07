@@ -4,7 +4,7 @@ import "./Header.css";
 export function Header() {
   return (
     <div className="headerContainer">
-      <h1 className="leftSection Title"><img src="/logo.svg" alt="크볼래 로고" width={180} /> 크볼래</h1>
+      <h1 className="leftSection Title"><img src="/logo.svg" alt="크볼래 로고" width={180} /> 크볼래 </h1>
 
       <div className="rightSection">
         <Link className="link" to="/">홈</Link>
