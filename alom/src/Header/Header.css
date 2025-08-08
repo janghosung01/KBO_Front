@@ -31,7 +31,7 @@
 .link, .btn {
   color: #374151;
   text-decoration: none;
-  font-size: 1rem; 
+  font-size:1.7rem; 
   font-weight: 400;
   transition: all 0.3s ease;
   position: relative;
@@ -40,10 +40,8 @@
 
 .link:hover, .btn:hover {
   color: #000;
-  background-color: #f3f4f6;
   transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 5px; 
+  
 }
 
 .link:visited, .btn:visited {
@@ -63,5 +61,21 @@
 }
 
 .link:hover::after, .btn:hover::after {
-  width: 80%;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;   /* ← 세로 가운데 */
+  gap: 10px;             /* 로고와 텍스트 간격 */
+  white-space: nowrap;   /* ← 줄바꿈 방지 */ 
+}
+
+.title p {
+  font-size: 2.5rem;   /* 원하는 크기로 조절 */
+  font-weight: bold; /* 굵게 (선택) */
+  margin: 0;         /* 기본 여백 제거 */
+  padding-top: 20px;
+  color: #1E90FF;    /* 로고 색상 통일 */
 }
