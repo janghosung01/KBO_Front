@@ -3,9 +3,9 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Header } from "./Header/Header"; // 헤더수정
-
+import { Footer } from "./footer/footer";
 import { Home } from "./Page/Home";
-import { Login } from "./Page/Login";                             
+import { Login } from "./Page/Login";
 import { MyPage } from "./Page/MyPage";
 import { Option } from "./Page/Option";
 import { AttCheck } from "./Components/AttCheck";
@@ -23,7 +23,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="MainContainer">
-
         <div className="HeaderBar">
           <Header />
         </div>
@@ -33,13 +32,15 @@ function App() {
             <Route path="/Login" element={<Login />} />
             <Route path="/MyPage" element={<MyPage />} />
             <Route path="/Option" element={<Option />} />
-            <Route path="/AttCheck" element={<AttCheck/>} />
+            <Route path="/AttCheck" element={<AttCheck />} />
             <Route path="/Friend" element={<Friend />} />
             <Route path="/SpotFriend" element={<SpotFriend />} />
-            <Route path="/TeamChating" element={<TeamChating />} />          
+            <Route path="/TeamChating" element={<TeamChating />} />
           </Routes>
         </div>
-
+        <div >
+          <Footer/>
+        </div>
       </div>
     </BrowserRouter>
   );
