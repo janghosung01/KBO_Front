@@ -1,3 +1,4 @@
+import "./TodayQuiz.css";
 export function TodayQuiz() {
   return (
     <div className="QuizBox">

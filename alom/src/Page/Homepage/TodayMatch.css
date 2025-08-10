@@ -8,6 +8,7 @@
 
 .match-card {
   background-color: white;
+  color: black;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   flex: 1 1 calc(20% - 16px); /* 5개 균등 배분 */
