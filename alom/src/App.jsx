@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Header } from "./Header/Header"; // 헤더수정
-import { Footer } from "./footer/footer";
+import { Footer } from "./Footer/Footer";
 import { Home } from "./Page/Home";
 import { Login } from "./Page/Login";
 import { MyPage } from "./Page/MyPage";
